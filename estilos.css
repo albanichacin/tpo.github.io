@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Koulen', cursive;
+}
+
+/*header*/
+
+header {
+  background-color: black;
+  justify-content: space-between;
+}
+
+.header2 {
+  background-color: white;
+}
+
+.header3 {
+display: flex;
+justify-content: space-between;
+}
+
+
+.logo-header img {
+  width: 300px;
+}
+
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  height: 60px;
+  width: 380px;
+}
+
+.navbar-collapse1 a {
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+  text-decoration: none;
+}
+
+.dropdown-menu1 {
+  background-color: black !important;
+}
+
+.dropdown-item1{
+  color: rgb(255, 255, 255)!important; 
+}
+
+.navbar-collapse2 a {
+  color: rgb(0, 0, 0);
+}
+
+.dropdown-menu1:hover {
+  font-size: 19px;
+}
+
+.dropdownwhite li:hover {
+  background-color: rgb(0, 0, 0);
+
+}
+
+.dropdownwhite a:hover {
+  color: white;
+  font-size: 19px;
+}
+
+@media (max-width: 769px) {
+  .logo-header img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* fin header */
+
+/*sectio1 */
+
+.presentacion {
+  height: 835px;
+  background-color: black;
+}
+
+
+.t-presentacion-p1 {
+  z-index: 1;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+}
+
+@media (max-width: 769px) {
+  h1 {
+    top: 50%;
+    text-align: center;
+  }
+  .presentacion {
+    height: 100px;
+  }
+
+  .t-presentacion {
+    padding-left: 20%;
+    padding-right: 20%;
+    z-index: 1;
+  }
+  .t-presentacion-p1 {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 200%;}
+  }
+
+  @media (max-width: 321px){
+    .formulario{
+      margin-top: 400px;
+    }  
+    
+    .t-presentacion-p1 {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+  }
+  }
+
+
+
+
+.logo-presentacion {
+  width: 100% !important;
+}
+
+h1 {
+  font-size: 77px;
+  color: white;
+}
+
+.presentacion .video {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.video {
+  width: 100%;
+}
+
+.video2 {
+  width: 100%;
+  border: rgb(0, 0, 0) solid 5px;
+  padding-top: 50px;
+  padding-left: 87px;
+  padding-right: 87px;
+  
+}
+
+.welcome_twitchyoutube{
+  color: rgb(255, 255, 255);
+  background-color: black;
+  text-align: center;
+  border: 5px solid white;
+  font-size: 50px;
+  padding: 15px;
+  }
+  
+  /* Acomodar el tamaño del video*/
+  .presentacion .video2 {
+      justify-content: center;
+      align-items: center;
+  }
+  
+
+
+/*fin de section 1*/
+
+/*section 2*/
+
+.description-m {
+    width: 100%;
+  height: 535px;
+  background-color: black;
+}
+
+.texto-presentacion {
+    text-align: center;
+  margin-top: 50px;
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-presentacion {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-presentacion {
+    height: 395px;
+    width: 550px;
+    background-image: url(./img/Logo\ MainuxMusic-02.png);
+    background-size: cover;
+    transition-duration: 1000ms;
+    animation: slideMe 1s ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  .container-gird2{
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+
+.card2 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.card2{
+    border: black 5px solid;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.description-m {
+    height: 935px;
+    background-color: black;
+}
+
+.texto-presentacion {
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-p p {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+  @keyframes slideMe {
+    0% {
+      transform: skewX(0deg) translateX(50px);
+    }
+  
+    100% {
+      transform: skew(0deg);
+    }
+  }
+
+
+  
+  
+
+@media   ( max-width:769px){
+
+    .description-m{
+        margin-top: 79px;
+        width: 100%;
+        height: 602px;
+    }
+
+    .texto-presentacion{
+       text-align: center;
+        margin-top: 79px;
+        width: 100%;
+    }
+
+    .logo-presentacion{
+        width: 100%;
+        margin-top: 55px;
+    }
+
+    .img-presentacion {
+        height: 150px;
+        width: 200px;
+    }
+
+    
+
+}
+
+
+/*section 3*/
+
+
+
+.s-formulario{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.formulario{
+  color: rgb(0, 0, 0);
+  background-color: white;
+padding-top: 60px;
+padding-left: 75px;
+
+  height: 300px;
+width: 500px;
+box-shadow: 1px -1px 90px 29px rgba(255,255,255,1);
+-webkit-box-shadow: 1px -1px 90px 29px rgba(255,255,255,1);
+-moz-box-shadow: 1px -1px 90px 29px rgba(255,255,255,1);
+}
+
+.formulario p{
+  font-size: 20px;
+}
+
+.formulario input{
+  width: 80%;
+}
+
+.genero input{
+  width: 10%;
+}
+
+
+.boton-formulario { 
+  display: flex;
+  justify-content: end;
+padding: 0 75px;
+}
+
+.texto-pag2{
+  background-color:rgb(0, 0, 0) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-twitch{
+  text-align: center;
+  padding: 5%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+
+}
+
+.p-texto-twitch{
+  border: solid rgb(255, 255, 255) 10px;
+  padding: 3%;
+}
+
+/*/section 3*/
+
+
+/*Footer*/
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes {
+
+  justify-content: space-between;
+  width: 400px;
+
+
+
+}
+
+.fa-brands {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+
+/*/Footer*/
+
+
+
+/*pagina 3*/
+
+/*pagina3*/
+
+
+/*section2*/
+
+.m-presentacion {
+  z-index: 1;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+}
+
+.card{
+  background-color: rgb(209, 141, 141);
+  color: white;
+  border-radius: 12px ;
+  text-align: center;
+
+}
+.card iframe{
+  border-radius: 12px;
+}
+
+.fa-brands{
+  font-size: 55px;
+}
+
+h5{
+  font-size: 25px;
+}
+
+
+.container-padre-spotify{
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 25%, rgba(52, 203, 0, 1) 76%);
+
+}
+
+
+.container-padre-soundcloud {
+  background: rgb(207, 207, 207);
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 42%, rgba(255, 119, 0, 1) 76%);
+}
+
+
+/*gird*/
+
+.container-gird{
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  justify-content: space-around;
+}
+
+
+/*/gird*/
+
+
